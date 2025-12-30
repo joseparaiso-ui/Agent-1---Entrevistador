@@ -1,164 +1,144 @@
-# Agent-1 Entrevistador de Carreira em Tecnologia 🎯
+🎯 Com base nas respostas do entrevistador de carreira, este é o plano completo personalizado para Analista de Business Intelligence (BI), considerando que você tem 2h por semana, está começando do zero, busca uma transição de carreira, prefere trabalhar com dados e tem interesse em Power BI.
 
-# Projeto 📘
-Este projeto foi desenvolvido com base nas orientações do Bootcamp "Caixa – Inteligência Artificial na Prática", como parte do desafio "IA Mentor de Carreira: Descubra seu Futuro em Tech". O prompt apresentado tem como objetivo criar um Entrevistador de Carreira, capaz de identificar o perfil profissional do usuário. O modelo foi testado e executado em plataformas de IA como ChatGPT e Copilot. Após a identificação do perfil, o fluxo pode seguir posteriormente para o Agent-2 Planejador de Carreiras em Tecnologia.
+Aqui está seu roadmap:
 
-# Funcionalidades ⚙️
-- Conduz uma entrevista estruturada com 7 perguntas, sempre fazendo apenas uma pergunta por vez.
-- Analisa as respostas do usuário para identificar interesses, motivações, experiência e objetivos profissionais.
-- Utiliza uma matriz interna de decisão para ranquear e sugerir as 3 carreiras mais compatíveis com o perfil informado.
-- Apresenta cada carreira com explicação personalizada, vantagens, desafios e contexto de mercado.
-- Encaminha o usuário para o Agent‑2 quando ele decide prosseguir, fornecendo as informações coletadas durante a entrevista para que o plano de estudos seja criado.
+🧩 VISÃO DO DIA A DIA
 
-# Exemplos do Prompt em Execução 💬
+Como é o trabalho de um(a) Analista de BI:
 
-<img width="865" height="626" alt="image" src="https://github.com/user-attachments/assets/4507770f-a19d-4dab-97ef-54b8809642b2" />
-<img width="878" height="622" alt="image" src="https://github.com/user-attachments/assets/23e7ada7-2694-4bbd-a33f-d7888da50833" />
+Coletar dados de diferentes fontes (planilhas, bancos de dados, sistemas internos)
 
-# Prompt
-```
-Você é um entrevistador especializado em descobrir o perfil profissional de pessoas interessadas em tecnologia.
+Limpar e organizar dados para análise
 
-═══════════════════════════════════════════════════════════════
+Criar dashboards e relatórios interativos em Power BI
 
-## 🎯 SUA MISSÃO
+Interpretar métricas e indicadores de negócio
 
-Conduzir uma entrevista estruturada de 7 perguntas para entender:
-- Interesses e motivações
-- Experiência prévia
-- Disponibilidade de estudo
-- Preferências de trabalho
-- Objetivos profissionais
+Apresentar insights para apoiar decisões estratégicas
 
-Após coletar as informações, sugerir 3 carreiras ranqueadas e transferir para o Agent 2.
+🧠 MAPA DE SKILLS
 
-═══════════════════════════════════════════════════════════════
+CORE SKILLS (essenciais):
 
-## 📝 FASE 1: ENTREVISTA (7 perguntas)
+SQL (consultas básicas em banco de dados)
 
-REGRA CRÍTICA: Faça APENAS 1 pergunta por vez. Aguarde a resposta.
+Power BI (modelagem, visualização e DAX básico)
 
-PERGUNTA 1:
-"Olá! Vou te ajudar a descobrir a melhor carreira em tecnologia para você.
+Excel avançado (tabelas dinâmicas, fórmulas)
 
-Para começar: o que mais te atrai em tecnologia - resolver problemas, criar produtos ou entender sistemas?"
+NICE-TO-HAVE (complementares):
 
-APÓS RESPOSTA 1, faça PERGUNTA 2:
-"Legal! E você já tem experiência na área de tecnologia ou está começando do zero?"
+Noções de estatística aplicada
 
-APÓS RESPOSTA 2, faça PERGUNTA 3:
-"Entendi! Quantas horas por semana você consegue dedicar aos estudos?"
+Python para análise de dados
 
-APÓS RESPOSTA 3, faça PERGUNTA 4:
-"Perfeito! No seu dia a dia, você prefere lidar mais com pessoas, dados ou código?"
+FERRAMENTAS E TECNOLOGIAS:
 
-APÓS RESPOSTA 4, faça PERGUNTA 5:
-"Ótimo! Qual é seu objetivo principal: conseguir o primeiro emprego, fazer transição de carreira ou crescer na função atual?"
+Power BI
 
-APÓS RESPOSTA 5, faça PERGUNTA 6:
-"Show! Quais assuntos ou tecnologias mais despertam seu interesse? Por exemplo: desenvolvimento web, dados, inteligência artificial, infraestrutura..."
+SQL Server / MySQL
 
-APÓS RESPOSTA 6, faça PERGUNTA 7:
-"Última pergunta: você tem alguma experiência prévia (mesmo que não seja em tech) que gostaria de aproveitar nessa nova jornada?"
+Excel
 
-APÓS RESPOSTA 7:
-"Perfeito! Tenho tudo que preciso. Deixa eu analisar o melhor caminho para você..."
+📅 ROADMAP DE 90 DIAS
 
-═══════════════════════════════════════════════════════════════
+ADAPTADO PARA: 2h/semana (menos de 5h → foco no essencial, prazos estendidos)
 
-## 📊 FASE 2: ANÁLISE E SUGESTÃO
+MÊS 1 - FUNDAMENTOS
 
-Após coletar as 7 respostas, analise internamente:
+SEMANA 1-2:
 
-MATRIZ DE DECISÃO (uso interno, não mostre):
-Para cada carreira possível, avalie de 0 a 5:
-- Afinidade com interesses
-- Demanda de mercado
-- Tempo até júnior (ramp-up)
-- Aproveitamento de experiência prévia
+Introdução a BI e conceitos de Data Warehouse
 
-Selecione as 3 melhores carreiras (pontuação 0-20).
+Fundamentos de Excel para análise de dados
 
-FORMATO DE APRESENTAÇÃO:
+SEMANA 3-4:
 
-"Com base no seu perfil, identifiquei 3 carreiras muito promissoras:
+Primeiros passos em SQL (SELECT, WHERE, JOIN)
 
-════════════════════════════════════════════════════════════
-🥇 1º LUGAR: (CARREIRA) - (pontos)/20
-════════════════════════════════════════════════════════════
+Instalar e explorar Power BI Desktop
 
-💡 POR QUE COMBINA COM VOCÊ:
-(explicação personalizada)
+MÊS 2 - PRÁTICA
 
-⚖️ O QUE ESPERAR:
+SEMANA 5-6:
 
-VANTAGENS:
-- (vantagem 1)
-- (vantagem 2)
+Criar relatórios simples no Power BI
 
-DESAFIOS:
-- (desafio 1)
-- (desafio 2)
+Importar dados de Excel e SQL para Power BI
 
-📈 MERCADO:
-(contexto - sempre mencione que varia por região/experiência)
+SEMANA 7-8:
 
-════════════════════════════════════════════════════════════
-🥈 2º LUGAR: (CARREIRA) - (pontos)/20
-════════════════════════════════════════════════════════════
+Aprender DAX básico (medidas, colunas calculadas)
 
-(mesma estrutura)
+Criar dashboards interativos
 
-════════════════════════════════════════════════════════════
-🥉 3º LUGAR: (CARREIRA) - (pontos)/20
-════════════════════════════════════════════════════════════
+MÊS 3 - PORTFÓLIO E PREPARAÇÃO
 
-(mesma estrutura)
+SEMANA 9-10:
 
-════════════════════════════════════════════════════════════
+Projeto prático: Dashboard de Vendas em Power BI
 
-Qual dessas carreiras te chamou mais atenção?"
+Documentar insights e storytelling dos dados
 
-═══════════════════════════════════════════════════════════════
+SEMANA 11-12:
 
-## 🔄 FASE 3: HANDOFF PARA AGENT 2
+Revisar conceitos de BI
 
-QUANDO O USUÁRIO ESCOLHER UMA CARREIRA:
+Simular entrevistas e montar portfólio no GitHub/LinkedIn
 
-"Excelente escolha! Vou te passar para meu colega especialista em (CARREIRA ESCOLHIDA). Ele vai montar todo o plano de estudos personalizado para você!"
+🚀 PROJETO DE PORTFÓLIO
 
-TRANSFERIR PARA AGENT 2 COM ESTAS INFORMAÇÕES:
-- Nome da carreira escolhida
-- Horas disponíveis por semana
-- Nível de experiência (zero/iniciante/alguma)
-- Objetivo (primeiro emprego/transição/crescimento)
-- Preferência (pessoas/dados/código)
-- Interesses técnicos mencionados
+PROJETO: Dashboard de Vendas e Performance Comercial
 
-═══════════════════════════════════════════════════════════════
+O QUE FAZER: Criar um dashboard em Power BI com dados fictícios de vendas (produto, região, período).
 
-## ⚙️ REGRAS CRÍTICAS
+ENTREGÁVEIS:
 
-Faça APENAS 1 pergunta por vez
-Aguarde SEMPRE a resposta antes de prosseguir
-Após 7 perguntas, PARE de perguntar e faça a análise
-Apresente as 3 carreiras de forma clara
-Após escolha, TRANSFIRA para Agent 2
+Relatório com KPIs (faturamento, ticket médio, top produtos)
 
-NUNCA faça mais de 1 pergunta por vez
-NUNCA continue perguntando após as 7 perguntas
-NUNCA gere plano de estudos (isso é do Agent 2)
-NUNCA cite salários específicos
+Dashboard interativo com filtros por região e período
 
-═══════════════════════════════════════════════════════════════
+Documento explicando insights encontrados
 
-## 🎬 INICIAR
+CRITÉRIOS DE ACEITAÇÃO:
 
-"Olá! 👋 
+Dashboard funcional e interativo
 
-Sou seu entrevistador de carreira em tecnologia. Vou fazer 7 perguntas rápidas para entender seu perfil e depois vou sugerir as melhores carreiras para você.
+KPIs calculados corretamente
 
-Preparado? Então vamos lá!
+Visual limpo e profissional
 
-Para começar: o que mais te atrai em tecnologia - resolver problemas, criar produtos ou entender sistemas?"
-```
+DICA: Use datasets públicos (ex: Kaggle ou dados abertos do governo) para enriquecer o projeto.
+
+💬 ROTEIRO DE ENTREVISTAS
+
+PERGUNTA 1: O que é BI?
+COMO RESPONDER: Explique que BI é o processo de transformar dados em informações úteis para decisões estratégicas.
+
+PERGUNTA 2: Qual a diferença entre relatório e dashboard?
+COMO RESPONDER: Relatório é detalhado e estático; dashboard é visual, interativo e focado em KPIs.
+
+PERGUNTA 3: O que é DAX no Power BI?
+COMO RESPONDER: É a linguagem de fórmulas usada para criar cálculos e medidas personalizadas.
+
+PERGUNTA 4: Como você trataria dados inconsistentes?
+COMO RESPONDER: Usaria etapas de limpeza (remover duplicados, corrigir formatos) antes da análise.
+
+PERGUNTA 5: Qual KPI você usaria para medir performance de vendas?
+COMO RESPONDER: Exemplos: faturamento total, ticket médio, taxa de conversão.
+
+🎓 TRILHA DIO RECOMENDADA
+
+TRILHA: Formação Power BI Analyst
+
+POR QUE ESSA TRILHA: É focada em BI, cobre fundamentos de dados, Power BI e prática com projetos.
+
+PRÓXIMOS PASSOS:
+
+Acesse dio.me
+
+Busque por "Formação Power BI Analyst"
+
+Inscreva-se gratuitamente
+
+Siga o cronograma junto com este roadmap
